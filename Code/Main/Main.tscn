@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://cycaas4liprst" path="res://Main/Main.gd" id="1_lxy7q"]
 [ext_resource type="PackedScene" uid="uid://lxljfgfynsd" path="res://Bubble/Bubble.tscn" id="2_83ytx"]
+[ext_resource type="PackedScene" uid="uid://c6em00cllt1er" path="res://UI/UI.tscn" id="3_amygn"]
 
 [node name="Main" type="Node" unique_id=1525632278]
 script = ExtResource("1_lxy7q")
@@ -11,3 +12,5 @@ position = Vector2(452, 342)
 
 [node name="Timer" type="Timer" parent="." unique_id=1401152710]
 autostart = true
+
+[node name="Ui" parent="." unique_id=466780781 instance=ExtResource("3_amygn")]

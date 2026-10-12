@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c6em00cllt1er"]
+
+[ext_resource type="Script" uid="uid://due4h8bo7m6pt" path="res://UI/UI.gd" id="1_6dd3c"]
+[ext_resource type="FontFile" uid="uid://df7bv83w00cry" path="res://Fonts/airstrip.ttf" id="2_dhe1o"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_6dd3c"]
+font = ExtResource("2_dhe1o")
+
+[node name="UI" type="PanelContainer" unique_id=1443539100]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -46.0
+offset_right = 46.0
+offset_bottom = 23.0
+grow_horizontal = 2
+script = ExtResource("1_6dd3c")
+
+[node name="ScoreUI" type="Label" parent="." unique_id=1344355009]
+layout_mode = 2
+text = "0123456789"
+label_settings = SubResource("LabelSettings_6dd3c")
