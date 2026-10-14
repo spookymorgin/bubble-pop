@@ -14,3 +14,5 @@ position = Vector2(452, 342)
 autostart = true
 
 [node name="Ui" parent="." unique_id=466780781 instance=ExtResource("3_amygn")]
+
+[node name="Audio" type="AudioStreamPlayer2D" parent="." unique_id=1408932228]

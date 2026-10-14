@@ -1,6 +1,9 @@
 extends Area2D
 class_name Bubble
 
+var main: Main = null
+
+var audio
 var speed = 60 # pixels / sec
 
 func _ready() -> void:
